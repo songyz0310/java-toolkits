@@ -1,0 +1,5 @@
+*.project
+.settings/
+*.classpath
+java-toolkits-net/target/
+java-toolkits-utility/target/
