@@ -8,7 +8,7 @@
 		<version>0.0.1</version>
 	</parent>
 	<artifactId>java-toolkits-utility</artifactId>
-	<version>0.0.4</version>
+	<version>0.0.5</version>
 	<licenses>
 		<license>
 			<name>The Apache Software License, Version 2.0</name>
@@ -28,6 +28,11 @@
 		</developer>
 	</developers>
 	<dependencies>
+	<dependency>
+			<groupId>com.github.songyz0310</groupId>
+			<artifactId>flowable-lang</artifactId>
+			<version>0.0.17</version>
+		</dependency>
 		<!-- log4j2 + slf4j -->
 		<dependency>
 			<groupId>org.apache.logging.log4j</groupId>
